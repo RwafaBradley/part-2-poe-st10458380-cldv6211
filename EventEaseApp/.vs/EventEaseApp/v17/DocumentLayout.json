@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\part-2-poe-st10458380-cldv6211\\EventEaseApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D6977AC7-E047-4476-9F21-488A1C0A9188}|EventEaseApp.csproj|c:\\users\\lab_services_student\\desktop\\part-2-poe-st10458380-cldv6211\\eventeaseapp\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6977AC7-E047-4476-9F21-488A1C0A9188}|EventEaseApp.csproj|solutionrelative:controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6977AC7-E047-4476-9F21-488A1C0A9188}|EventEaseApp.csproj|c:\\users\\lab_services_student\\desktop\\part-2-poe-st10458380-cldv6211\\eventeaseapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D6977AC7-E047-4476-9F21-488A1C0A9188}|EventEaseApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6977AC7-E047-4476-9F21-488A1C0A9188}|EventEaseApp.csproj|c:\\users\\lab_services_student\\desktop\\part-2-poe-st10458380-cldv6211\\eventeaseapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6977AC7-E047-4476-9F21-488A1C0A9188}|EventEaseApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6977AC7-E047-4476-9F21-488A1C0A9188}|EventEaseApp.csproj|c:\\users\\lab_services_student\\desktop\\part-2-poe-st10458380-cldv6211\\eventeaseapp\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6977AC7-E047-4476-9F21-488A1C0A9188}|EventEaseApp.csproj|solutionrelative:controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6977AC7-E047-4476-9F21-488A1C0A9188}|EventEaseApp.csproj|c:\\users\\lab_services_student\\desktop\\part-2-poe-st10458380-cldv6211\\eventeaseapp\\eventeaseapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -154,7 +154,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
@@ -242,20 +242,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "VenueController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\part-2-poe-st10458380-cldv6211\\EventEaseApp\\Controllers\\VenueController.cs",
               "RelativeDocumentMoniker": "Controllers\\VenueController.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\part-2-poe-st10458380-cldv6211\\EventEaseApp\\Controllers\\VenueController.cs",
               "RelativeToolTip": "Controllers\\VenueController.cs",
-              "ViewState": "AgIAAKEAAAAAAAAAAAAswKAAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAYwKAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T21:06:35.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\part-2-poe-st10458380-cldv6211\\EventEaseApp\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -279,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\part-2-poe-st10458380-cldv6211\\EventEaseApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -287,8 +287,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:13:52.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T17:13:52.095Z"
             },
             {
               "$type": "Document",
