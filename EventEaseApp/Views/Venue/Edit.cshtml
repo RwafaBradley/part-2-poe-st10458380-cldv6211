@@ -1,0 +1,73 @@
+﻿@model EventEaseApp.Models.Venue
+
+<h2>Edit Venue</h2>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+
+@if (!ViewData.ModelState.IsValid)
+{
+    foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+    {
+        <div class="alert alert-danger">
+            @error.ErrorMessage
+        </div>
+    }
+}
+
+<form asp-action="Edit" enctype="multipart/form-data">
+    <input type="hidden" asp-for="VenueId" />
+
+    <div class="form-group">
+        <label asp-for="VenueName"></label>
+        <input asp-for="VenueName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Locations"></label>
+        <input asp-for="Locations" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Capacity"></label>
+        <input asp-for="Capacity" class="form-control" />
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+    {
+     <div class="form-group">
+         <label>Current Image</label><br />
+         <img src ="@Model.ImageUrl" alt="Venue Image" width="150" height="150" style="object-fit:cover; border-radius:8px;" />
+        </div>
+    }
+
+    <div class="form-group">
+        <label asp-for="ImageFile" class="control-label"></label>
+        <input asp-for="ImageFile" class="form-control" type="file" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+    <div class="form-group form-check">
+        <!-- Always post 0 if unchecked -->
+        <input type="hidden" name="IsAvailable" value="0" />
+
+        <!-- Post 1 if checked -->
+        <input type="checkbox" name="IsAvailable" value="1" class="form-check-input"
+        @(Model.IsAvailable == 1 ? "checked" : "") />
+        <label class="form-check-label" for="IsAvailable">Is Available</label>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Save Changes" class="btn btn-primary" />
+    </div>
+</form>
