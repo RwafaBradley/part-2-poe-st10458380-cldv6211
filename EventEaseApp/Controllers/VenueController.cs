@@ -158,7 +158,7 @@ namespace EventEaseApp.Controllers
        private async Task<string> UploadImageToBlobAsync(IFormFile imageFile)
 {
            var connectionString = "";
-    var containerName = "cldv6211project";
+    var containerName = "";
 
     var blobServiceClient = new BlobServiceClient(connectionString);
     var containerClient = blobServiceClient.GetBlobContainerClient(containerName);
